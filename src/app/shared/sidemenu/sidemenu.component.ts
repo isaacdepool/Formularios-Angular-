@@ -49,4 +49,15 @@ reactiveMenu: MenuItem[] = [
   }
  ];
 
+ authMenu: MenuItem[] = [
+  {
+    texto: 'Resgitro',
+    ruta: './auth/registro'
+  },
+  {
+   texto: 'Login',
+   ruta: './auth/login'
+  }
+ ];
+
 }
